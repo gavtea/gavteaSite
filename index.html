@@ -14,6 +14,11 @@
       <main>
             <div class="center">
                   <div class="grid position" id="appHolder">
+                        <!-- <div class="appIcon" id="puzzles" onclick="openInfo(this)">
+                              <div class="appText" id="test">
+                                    🧩
+                              </div>
+                        </div> -->
                         <div class="appIcon" id="art" onclick="openInfo(this)">
                               <div class="appText">
                                     🎨
@@ -29,114 +34,115 @@
                                     💻
                               </div>
                         </div>
-                  </div>
-                  <div class="appInfo maskArt position" id="artInfo">
-                        <div class="infoText">
-                              <div class="exitApp position" id="art" onclick="openInfo(this)">X</div>
-                              <span class="title"> Art </span> <br>
-                              I do digital art, and commissions are open! <br><br>
-                              <span class="centerText">
-                                    Commission Info: <br>
-                                    Gib/Squint: $10 / Custom Emote: $15 / Animated: $20 / <br>Streeetch $25 + $5
-                                    per extension emote <br>
-                                    PNGTuber with some emotions: $25 <br>
-                              </span>
-                              <br>
-
-                              Please provide a reference if you request an emote. <br><br>
-
-                              What you get: <br>
-                              <ul>
-                                    <li>128x128 pixel png/gif file</li>
-
-                                    <li>Under 256kb gif file for Discord</li>
-
-                                    <li>112x112, 56x56, 28x28 pixel png files for Twitch upon request</li>
-                              </ul>
-                              <span class="centerText"
-                                    style="text-decoration: underline; color: #0000ee; cursor: pointer;" id="TOS"
-                                    onclick="openInfo(this)">Terms of Service</span><br>
-                              <img src="./images/ashskSQUINT.png" width="16%">
-                              <img src="./images/yoshgib.png" width="16%">
-                              <img src="./images/gavcomfy.png" width="16%">
-                              <img src="./images/gavgiggle.png" width="16%">
-                              <img src="./images/gavinfinitepower.gif" width="16%">
-                              <img src="./images/yoshgambleall.gif" width="16%">
+                        <div class="appInfo" id="puzzlesInfo">
+                              <div class="infoText">
+                                    <span class="title"> Puzzles </span> <br>
+                                    I've been designing puzzles for over two years now with the goal of opening an
+                                    escape room.
+                              </div>
                         </div>
-                  </div>
-                  <div class="appInfo mask position" id="TOSInfo">
-                        <div class="infoText">
-                              <span class="title"> Terms Of Service </span><br>
-                              Throughout these terms of service, the terms "I" and "My" refer to Gavin, while the
-                              terms "you" and "your" refer to the customer.
-                              <ul>
-                                    <li>I reserve the right to decline or cancel any and all commission requests.</li>
+                        <div class="appInfo" id="artInfo">
+                              <div class="infoText">
+                                    <span class="title"> Art </span> <br>
+                                    I do digital art, and commissions are open! <br><br>
+                                    <span class="centerText">
+                                          Commission Info: <br>
+                                          Gib/Squint: $10 / Custom Emote: $15 / Animated: $20 / <br>Streeetch $25 + $5
+                                          per extension emote <br>
+                                          PNGTuber with some emotions: $25 <br>
+                                    </span>
+                                    <br>
 
-                                    <li>Unless otherwise agreed upon, the time frame of completion of a commission is
+                                    Please provide a reference if you request an emote. <br><br>
+
+                                    What you get: <br>
+                                    <ul>
+                                          <li>128x128 pixel png/gif file</li>
+
+                                          <li>Under 256kb gif file for Discord</li>
+
+                                          <li>112x112, 56x56, 28x28 pixel png files for Twitch upon request</li>
+                                    </ul>
+                                          <span class="centerText"
+                                                style="text-decoration: underline; color: #0000ee; cursor: pointer;"
+                                                id="TOS" onclick="openInfo(this)">Terms of Service</span><br>
+                                          <img src="./images/ashskSQUINT.png" width="16%">
+                                          <img src="./images/yoshgib.png" width="16%">
+                                          <img src="./images/gavcomfy.png" width="16%">
+                                          <img src="./images/gavgiggle.png" width="16%">
+                                          <img src="./images/gavinfinitepower.gif" width="16%">
+                                          <img src="./images/yoshgambleall.gif" width="16%">
+                              </div>
+                        </div>
+                        <div class="appInfo" id="TOSInfo">
+                              <div class="infoText">
+                                    <span class="title"> Terms Of Service </span><br>
+                                    Throughout these terms of service, the terms "I" and "My" refer to Gavin, while the
+                                    terms "you" and "your" refer to the customer.
+                                    <ul>
+                                          <li>I reserve the right to decline or cancel any and all commission requests.</li>
+
+                                          <li>Unless otherwise agreed upon, the time frame of completion of a commission is
                                           under my discretion.</li>
 
-                                    <li>My art may not be used for merchandise or commercial means without prior
+                                          <li>My art may not be used for merchandise or commercial means without prior
                                           discussion and agreement.</li>
 
-                                    <li>Payment will be done via PayPal in USD</li>
+                                          <li>Payment will be done via PayPal in USD</li>
 
-                                    <li>Work on the art will begin once payment has been received.</li>
+                                          <li>Work on the art will begin once payment has been received.</li>
 
-                                    <li>Delivery of the artwork is considered complete after I have sent either
+                                          <li>Delivery of the artwork is considered complete after I have sent either
                                           the PNG or GIF files.</li>
 
-                                    <li>Refunds may be requested before completion and delivery of the art. Contact
+                                          <li>Refunds may be requested before completion and delivery of the art. Contact
                                           me on Discord to request a refund.</li>
 
-                                    <li>After delivery, no refunds will be accepted.</li>
+                                          <li>After delivery, no refunds will be accepted.</li>
 
-                                    <li>Do not trace or copy my artwork whatsoever.</li>
+                                          <li>Do not trace or copy my artwork whatsoever.</li>
 
-                                    <li>The Products and all included content are provided on an "as is" basis without
+                                          <li>The Products and all included content are provided on an "as is" basis without
                                           warranty of any kind, whether express or implied.</li>
 
-                                    <li>I may update this policy from time to time by updating the version on this page.
-                                          You
-                                          should check this page occasionally to identify any updates. The last update
-                                          to this
+                                          <li>I may update this policy from time to time by updating the version on this page. You
+                                          should check this page occasionally to identify any updates. The last update to this
                                           policy was 7/26/2025.</li>
 
-                                    <li>Disclaimer: if you violate any part of these terms of service, I reserve the
-                                          right
+                                          <li>Disclaimer: if you violate any part of these terms of service, I reserve the right
                                           to ban you from commissions until further notice</li>
-                              </ul>
-                              If any provision in these terms of service is held unenforceable, then such
-                              provision will be modified to reflect the parties' intention. All remaining
-                              provisions of these terms of service shall remain in full force and effect.
+                                    </ul>
+                                    If any provision in these terms of service is held unenforceable, then such
+                                    provision will be modified to reflect the parties' intention. All remaining
+                                    provisions of these terms of service shall remain in full force and effect.
+                              </div>
                         </div>
-                  </div>
-                  <div class="appInfo maskGames position" id="gamesInfo">
-                        <div class="infoText">
-                              <div class="exitApp position" id="games" onclick="openInfo(this)">X</div>
-                              <span class="title"> Games </span> <br>
-                              I haven't designed any games yet, but it's on my to-do list, and once I do, I'll put
-                              the information here!
+                        <div class="appInfo" id="gamesInfo">
+                              <div class="infoText">
+                                    <span class="title"> Games </span> <br>
+                                    I haven't designed any games yet, but it's on my to-do list, and once I do, I'll put
+                                    the information here!
+                              </div>
                         </div>
-                  </div>
-                  <div class="appInfo maskCoding position" id="codingInfo">
-                        <div class="infoText">
-                              <div class="exitApp position" id="coding" onclick="openInfo(this)">X</div>
-                              <span class="title"> Coding </span> <br>
-                              My primary programming language is Javascript, although I have recently been
-                              teaching myself Python and C#.
-                              <br><br>
-                              <span class="centerText">
-                                    Links to some things I've coded:
-                                    <br>
-                                    <a href="https://solver.gavtea.com">Crossword Assistant</a>
-                                    <br>
-                                    <a href="https://grids.gavtea.com/">Crossword Grid Finder</a>
-                                    <br>
-                                    <a href="https://mtgboosters.gavtea.com/">MTG Booster Box Opener</a>
-                                    <br>
-                                    <a href="https://commandertags.gavtea.com/">MTG Commander Deck Tags</a>
-                                    <br>
-                              </span>
+                        <div class="appInfo" id="codingInfo">
+                              <div class="infoText">
+                                    <span class="title"> Coding </span> <br>
+                                    My primary programming language is Javascript, although I have recently been
+                                    teaching myself Python and C#.
+                                    <br><br>
+                                    <span class="centerText">
+                                          Links to some things I've coded:
+                                          <br>
+                                          <a href="https://solver.gavtea.com">Crossword Assistant</a>
+                                          <br>
+                                          <a href="https://grids.gavtea.com/">Crossword Grid Finder</a>
+                                          <br>
+                                          <a href="https://mtgboosters.gavtea.com/">MTG Booster Box Opener</a>
+                                          <br>
+                                          <a href="https://commandertags.gavtea.com/">MTG Commander Deck Tags</a>
+                                          <br>
+                                    </span>
+                              </div>
                         </div>
                   </div>
             </div>
